@@ -504,3 +504,19 @@
 2019-02-17 18:48:19,818 WARN killing 'uwsgi' (9) with SIGKILL
 2019-02-17 18:48:19,840 INFO stopped: uwsgi (terminated by SIGKILL)
 2019-02-17 18:48:19,848 INFO stopped: nginx (exit status 0)
+2019-02-17 19:38:41,906 CRIT Supervisor running as root (no user in config file)
+2019-02-17 19:38:41,926 INFO supervisord started with pid 1
+2019-02-17 19:38:42,929 INFO spawned: 'nginx' with pid 8
+2019-02-17 19:38:42,931 INFO spawned: 'uwsgi' with pid 9
+2019-02-17 19:38:44,631 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-17 19:38:44,631 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-17 20:16:12,994 WARN received SIGTERM indicating exit request
+2019-02-17 20:16:13,257 INFO waiting for nginx, uwsgi to die
+2019-02-17 20:16:16,345 INFO waiting for nginx, uwsgi to die
+2019-02-17 20:16:20,306 INFO waiting for nginx, uwsgi to die
+2019-02-17 20:16:59,667 CRIT Supervisor running as root (no user in config file)
+2019-02-17 20:16:59,697 INFO supervisord started with pid 1
+2019-02-17 20:17:00,700 INFO spawned: 'nginx' with pid 8
+2019-02-17 20:17:00,702 INFO spawned: 'uwsgi' with pid 9
+2019-02-17 20:17:01,750 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-17 20:17:01,750 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

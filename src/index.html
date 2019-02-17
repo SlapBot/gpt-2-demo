@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>OpenAI GPT-2 Conditional Text Generation Demo</title>
       <style>
       /* Set a background image by replacing the URL below */
         body {
@@ -74,12 +74,15 @@
     <script>
         $("#submit").click(function(){
             let input_text = $("#exampleFormControlTextarea6").val();
+            $("#submit").prop("disabled", true);
+            $("#generatedResult").html("Generating... wait.");
             $.post("/api/conditional_sample", { input_text: input_text })
             .done(function( data ) {
                 let json_data = JSON.parse(data);
                 console.log(json_data);
                 let updated_result = input_text + "<hr>" + json_data.result.replace(/(?:\r\n|\r|\n)/g, '<br>');
-              $("#generatedResult").html(updated_result);
+                $("#generatedResult").html(updated_result);
+                $("#submit").prop("disabled", false);
             });
         });
     </script>
