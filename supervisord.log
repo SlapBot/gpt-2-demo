@@ -1,0 +1,506 @@
+2019-02-16 20:03:09,981 CRIT Supervisor running as root (no user in config file)
+2019-02-16 20:03:09,990 INFO supervisord started with pid 1
+2019-02-16 20:03:10,992 INFO spawned: 'nginx' with pid 8
+2019-02-16 20:03:10,996 INFO spawned: 'uwsgi' with pid 9
+2019-02-16 20:03:12,506 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:03:12,506 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:06:38,504 WARN received SIGTERM indicating exit request
+2019-02-16 20:06:38,504 INFO waiting for nginx, uwsgi to die
+2019-02-16 20:06:39,509 INFO stopped: uwsgi (exit status 0)
+2019-02-16 20:06:39,511 INFO stopped: nginx (exit status 0)
+2019-02-16 20:08:26,827 CRIT Supervisor running as root (no user in config file)
+2019-02-16 20:08:26,828 INFO supervisord started with pid 1
+2019-02-16 20:08:27,831 INFO spawned: 'nginx' with pid 8
+2019-02-16 20:08:27,834 INFO spawned: 'uwsgi' with pid 9
+2019-02-16 20:08:28,863 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:08:28,864 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:08:57,275 WARN received SIGTERM indicating exit request
+2019-02-16 20:08:57,275 INFO waiting for nginx, uwsgi to die
+2019-02-16 20:08:58,287 INFO stopped: uwsgi (exit status 0)
+2019-02-16 20:08:58,289 INFO stopped: nginx (exit status 0)
+2019-02-16 20:09:02,945 CRIT Supervisor running as root (no user in config file)
+2019-02-16 20:09:02,947 INFO supervisord started with pid 1
+2019-02-16 20:09:03,950 INFO spawned: 'nginx' with pid 8
+2019-02-16 20:09:03,953 INFO spawned: 'uwsgi' with pid 9
+2019-02-16 20:09:04,981 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:09:04,981 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:09:21,126 WARN received SIGTERM indicating exit request
+2019-02-16 20:09:21,126 INFO waiting for nginx, uwsgi to die
+2019-02-16 20:09:22,142 INFO stopped: uwsgi (exit status 0)
+2019-02-16 20:09:22,144 INFO stopped: nginx (exit status 0)
+2019-02-16 20:09:26,335 CRIT Supervisor running as root (no user in config file)
+2019-02-16 20:09:26,336 INFO supervisord started with pid 1
+2019-02-16 20:09:27,340 INFO spawned: 'nginx' with pid 8
+2019-02-16 20:09:27,343 INFO spawned: 'uwsgi' with pid 9
+2019-02-16 20:09:28,371 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:09:28,371 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:10:18,395 WARN received SIGTERM indicating exit request
+2019-02-16 20:10:18,395 INFO waiting for nginx, uwsgi to die
+2019-02-16 20:10:19,410 INFO stopped: uwsgi (exit status 0)
+2019-02-16 20:10:19,412 INFO stopped: nginx (exit status 0)
+2019-02-16 20:12:02,099 CRIT Supervisor running as root (no user in config file)
+2019-02-16 20:12:02,100 INFO supervisord started with pid 1
+2019-02-16 20:12:03,104 INFO spawned: 'nginx' with pid 8
+2019-02-16 20:12:03,107 INFO spawned: 'uwsgi' with pid 9
+2019-02-16 20:12:04,133 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:12:04,133 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:12:42,122 WARN received SIGTERM indicating exit request
+2019-02-16 20:12:42,122 INFO waiting for nginx, uwsgi to die
+2019-02-16 20:12:45,126 INFO waiting for nginx, uwsgi to die
+2019-02-16 20:12:48,130 INFO waiting for nginx, uwsgi to die
+2019-02-16 20:12:51,135 INFO waiting for nginx, uwsgi to die
+2019-02-16 20:12:52,136 WARN killing 'uwsgi' (9) with SIGKILL
+2019-02-16 20:12:52,143 INFO stopped: uwsgi (terminated by SIGKILL)
+2019-02-16 20:12:52,145 INFO stopped: nginx (exit status 0)
+2019-02-16 20:12:55,819 CRIT Supervisor running as root (no user in config file)
+2019-02-16 20:12:55,820 INFO supervisord started with pid 1
+2019-02-16 20:12:56,823 INFO spawned: 'nginx' with pid 8
+2019-02-16 20:12:56,826 INFO spawned: 'uwsgi' with pid 9
+2019-02-16 20:12:57,854 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:12:57,854 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:13:17,368 WARN received SIGTERM indicating exit request
+2019-02-16 20:13:17,369 INFO waiting for nginx, uwsgi to die
+2019-02-16 20:13:18,381 INFO stopped: uwsgi (exit status 0)
+2019-02-16 20:13:18,383 INFO stopped: nginx (exit status 0)
+2019-02-16 20:13:22,665 CRIT Supervisor running as root (no user in config file)
+2019-02-16 20:13:22,667 INFO supervisord started with pid 1
+2019-02-16 20:13:23,670 INFO spawned: 'nginx' with pid 8
+2019-02-16 20:13:23,672 INFO spawned: 'uwsgi' with pid 9
+2019-02-16 20:13:24,698 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:13:24,698 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:13:35,115 WARN received SIGTERM indicating exit request
+2019-02-16 20:13:35,115 INFO waiting for nginx, uwsgi to die
+2019-02-16 20:13:36,145 INFO stopped: uwsgi (exit status 0)
+2019-02-16 20:13:36,151 INFO stopped: nginx (exit status 0)
+2019-02-16 20:14:01,532 CRIT Supervisor running as root (no user in config file)
+2019-02-16 20:14:01,534 INFO supervisord started with pid 1
+2019-02-16 20:14:02,537 INFO spawned: 'nginx' with pid 8
+2019-02-16 20:14:02,540 INFO spawned: 'uwsgi' with pid 9
+2019-02-16 20:14:03,567 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:14:03,567 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:14:12,510 WARN received SIGTERM indicating exit request
+2019-02-16 20:14:12,511 INFO waiting for nginx, uwsgi to die
+2019-02-16 20:14:13,540 INFO stopped: uwsgi (exit status 0)
+2019-02-16 20:14:13,544 INFO stopped: nginx (exit status 0)
+2019-02-16 20:16:38,308 CRIT Supervisor running as root (no user in config file)
+2019-02-16 20:16:38,309 INFO supervisord started with pid 1
+2019-02-16 20:16:39,312 INFO spawned: 'nginx' with pid 8
+2019-02-16 20:16:39,315 INFO spawned: 'uwsgi' with pid 9
+2019-02-16 20:16:40,344 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:16:40,344 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:22:14,608 WARN received SIGTERM indicating exit request
+2019-02-16 20:22:14,608 INFO waiting for nginx, uwsgi to die
+2019-02-16 20:22:15,622 INFO stopped: uwsgi (exit status 0)
+2019-02-16 20:22:15,623 INFO stopped: nginx (exit status 0)
+2019-02-16 20:30:15,199 CRIT Supervisor running as root (no user in config file)
+2019-02-16 20:30:15,214 INFO supervisord started with pid 1
+2019-02-16 20:30:16,217 INFO spawned: 'nginx' with pid 8
+2019-02-16 20:30:16,220 INFO spawned: 'uwsgi' with pid 9
+2019-02-16 20:30:17,858 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:30:17,858 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:31:14,866 WARN received SIGTERM indicating exit request
+2019-02-16 20:31:14,866 INFO waiting for nginx, uwsgi to die
+2019-02-16 20:31:15,907 INFO stopped: uwsgi (exit status 0)
+2019-02-16 20:31:15,909 INFO stopped: nginx (exit status 0)
+2019-02-16 20:31:31,293 CRIT Supervisor running as root (no user in config file)
+2019-02-16 20:31:31,294 INFO supervisord started with pid 1
+2019-02-16 20:31:32,298 INFO spawned: 'nginx' with pid 8
+2019-02-16 20:31:32,300 INFO spawned: 'uwsgi' with pid 9
+2019-02-16 20:31:33,329 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:31:33,329 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:34:52,463 WARN received SIGTERM indicating exit request
+2019-02-16 20:34:52,464 INFO waiting for nginx, uwsgi to die
+2019-02-16 20:34:53,505 INFO stopped: uwsgi (exit status 0)
+2019-02-16 20:34:53,507 INFO stopped: nginx (exit status 0)
+2019-02-16 20:35:20,788 CRIT Supervisor running as root (no user in config file)
+2019-02-16 20:35:20,790 INFO supervisord started with pid 1
+2019-02-16 20:35:21,793 INFO spawned: 'nginx' with pid 8
+2019-02-16 20:35:21,796 INFO spawned: 'uwsgi' with pid 9
+2019-02-16 20:35:22,846 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:35:22,846 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:38:05,855 WARN received SIGTERM indicating exit request
+2019-02-16 20:38:05,855 INFO waiting for nginx, uwsgi to die
+2019-02-16 20:38:08,859 INFO waiting for nginx, uwsgi to die
+2019-02-16 20:38:11,863 INFO waiting for nginx, uwsgi to die
+2019-02-16 20:38:14,867 INFO waiting for nginx, uwsgi to die
+2019-02-16 20:38:15,868 WARN killing 'uwsgi' (9) with SIGKILL
+2019-02-16 20:38:22,088 CRIT Supervisor running as root (no user in config file)
+2019-02-16 20:38:22,089 INFO supervisord started with pid 1
+2019-02-16 20:38:23,093 INFO spawned: 'nginx' with pid 8
+2019-02-16 20:38:23,095 INFO spawned: 'uwsgi' with pid 9
+2019-02-16 20:38:24,123 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:38:24,124 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:40:35,610 WARN received SIGTERM indicating exit request
+2019-02-16 20:40:35,619 INFO waiting for nginx, uwsgi to die
+2019-02-16 20:40:36,662 INFO stopped: uwsgi (exit status 0)
+2019-02-16 20:40:36,666 INFO stopped: nginx (exit status 0)
+2019-02-16 20:41:04,882 CRIT Supervisor running as root (no user in config file)
+2019-02-16 20:41:04,884 INFO supervisord started with pid 1
+2019-02-16 20:41:05,888 INFO spawned: 'nginx' with pid 9
+2019-02-16 20:41:05,890 INFO spawned: 'uwsgi' with pid 10
+2019-02-16 20:41:07,146 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:41:07,146 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:42:31,046 WARN received SIGTERM indicating exit request
+2019-02-16 20:42:31,046 INFO waiting for nginx, uwsgi to die
+2019-02-16 20:42:34,050 INFO waiting for nginx, uwsgi to die
+2019-02-16 20:42:37,054 INFO waiting for nginx, uwsgi to die
+2019-02-16 20:42:40,059 INFO waiting for nginx, uwsgi to die
+2019-02-16 20:42:41,060 WARN killing 'uwsgi' (10) with SIGKILL
+2019-02-16 20:45:57,865 CRIT Supervisor running as root (no user in config file)
+2019-02-16 20:45:57,874 INFO supervisord started with pid 1
+2019-02-16 20:45:58,878 INFO spawned: 'nginx' with pid 8
+2019-02-16 20:45:58,882 INFO spawned: 'uwsgi' with pid 9
+2019-02-16 20:46:00,580 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:46:00,581 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:52:45,639 WARN received SIGTERM indicating exit request
+2019-02-16 20:52:45,639 INFO waiting for nginx, uwsgi to die
+2019-02-16 20:52:46,681 INFO stopped: uwsgi (exit status 0)
+2019-02-16 20:52:46,683 INFO stopped: nginx (exit status 0)
+2019-02-16 20:54:30,199 CRIT Supervisor running as root (no user in config file)
+2019-02-16 20:54:30,218 INFO supervisord started with pid 1
+2019-02-16 20:54:31,222 INFO spawned: 'nginx' with pid 9
+2019-02-16 20:54:31,224 INFO spawned: 'uwsgi' with pid 10
+2019-02-16 20:54:32,914 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:54:32,914 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:56:20,086 WARN received SIGTERM indicating exit request
+2019-02-16 20:56:20,087 INFO waiting for nginx, uwsgi to die
+2019-02-16 20:56:21,152 INFO stopped: uwsgi (exit status 0)
+2019-02-16 20:56:21,154 INFO stopped: nginx (exit status 0)
+2019-02-16 20:57:47,227 CRIT Supervisor running as root (no user in config file)
+2019-02-16 20:57:47,229 INFO supervisord started with pid 1
+2019-02-16 20:57:48,232 INFO spawned: 'nginx' with pid 8
+2019-02-16 20:57:48,234 INFO spawned: 'uwsgi' with pid 9
+2019-02-16 20:57:49,263 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:57:49,263 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:59:05,608 WARN received SIGTERM indicating exit request
+2019-02-16 20:59:05,608 INFO waiting for nginx, uwsgi to die
+2019-02-16 20:59:06,625 INFO stopped: uwsgi (exit status 0)
+2019-02-16 20:59:06,626 INFO stopped: nginx (exit status 0)
+2019-02-16 20:59:26,825 CRIT Supervisor running as root (no user in config file)
+2019-02-16 20:59:26,826 INFO supervisord started with pid 1
+2019-02-16 20:59:27,829 INFO spawned: 'nginx' with pid 8
+2019-02-16 20:59:27,831 INFO spawned: 'uwsgi' with pid 9
+2019-02-16 20:59:29,804 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 20:59:29,805 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:00:41,654 WARN received SIGTERM indicating exit request
+2019-02-16 21:00:41,655 INFO waiting for nginx, uwsgi to die
+2019-02-16 21:00:42,667 INFO stopped: uwsgi (exit status 0)
+2019-02-16 21:00:42,669 INFO stopped: nginx (exit status 0)
+2019-02-16 21:06:27,815 CRIT Supervisor running as root (no user in config file)
+2019-02-16 21:06:27,838 INFO supervisord started with pid 1
+2019-02-16 21:06:28,842 INFO spawned: 'nginx' with pid 8
+2019-02-16 21:06:28,844 INFO spawned: 'uwsgi' with pid 9
+2019-02-16 21:06:29,343 INFO exited: uwsgi (exit status 1; not expected)
+2019-02-16 21:06:30,345 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:06:30,347 INFO spawned: 'uwsgi' with pid 18
+2019-02-16 21:06:30,356 INFO exited: uwsgi (exit status 1; not expected)
+2019-02-16 21:06:32,361 INFO spawned: 'uwsgi' with pid 19
+2019-02-16 21:06:32,370 INFO exited: uwsgi (exit status 1; not expected)
+2019-02-16 21:06:35,376 INFO spawned: 'uwsgi' with pid 20
+2019-02-16 21:06:35,385 INFO exited: uwsgi (exit status 1; not expected)
+2019-02-16 21:06:36,386 INFO gave up: uwsgi entered FATAL state, too many start retries too quickly
+2019-02-16 21:06:48,197 WARN received SIGTERM indicating exit request
+2019-02-16 21:06:48,198 INFO waiting for nginx to die
+2019-02-16 21:06:49,203 INFO stopped: nginx (exit status 0)
+2019-02-16 21:08:16,464 CRIT Supervisor running as root (no user in config file)
+2019-02-16 21:08:16,486 INFO supervisord started with pid 1
+2019-02-16 21:08:17,490 INFO spawned: 'nginx' with pid 8
+2019-02-16 21:08:17,491 INFO spawned: 'uwsgi' with pid 9
+2019-02-16 21:08:19,221 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:08:19,221 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:12:31,226 WARN received SIGTERM indicating exit request
+2019-02-16 21:12:31,226 INFO waiting for nginx, uwsgi to die
+2019-02-16 21:12:33,337 INFO stopped: uwsgi (exit status 0)
+2019-02-16 21:12:33,341 INFO stopped: nginx (exit status 0)
+2019-02-16 21:18:03,104 CRIT Supervisor running as root (no user in config file)
+2019-02-16 21:18:03,144 INFO supervisord started with pid 1
+2019-02-16 21:18:04,147 INFO spawned: 'nginx' with pid 8
+2019-02-16 21:18:04,150 INFO spawned: 'uwsgi' with pid 9
+2019-02-16 21:18:05,442 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:18:05,442 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:19:56,709 WARN received SIGTERM indicating exit request
+2019-02-16 21:19:56,709 INFO waiting for nginx, uwsgi to die
+2019-02-16 21:19:57,749 INFO stopped: uwsgi (exit status 0)
+2019-02-16 21:19:57,751 INFO stopped: nginx (exit status 0)
+2019-02-16 21:41:06,131 CRIT Supervisor running as root (no user in config file)
+2019-02-16 21:41:06,167 INFO supervisord started with pid 1
+2019-02-16 21:41:07,170 INFO spawned: 'nginx' with pid 8
+2019-02-16 21:41:07,173 INFO spawned: 'uwsgi' with pid 9
+2019-02-16 21:41:09,060 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:41:09,060 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:41:09,060 INFO exited: nginx (exit status 0; expected)
+2019-02-16 21:42:03,794 WARN received SIGTERM indicating exit request
+2019-02-16 21:42:03,794 INFO waiting for uwsgi to die
+2019-02-16 21:42:04,832 INFO stopped: uwsgi (exit status 0)
+2019-02-16 21:44:28,367 CRIT Supervisor running as root (no user in config file)
+2019-02-16 21:44:28,407 INFO supervisord started with pid 1
+2019-02-16 21:44:29,411 INFO spawned: 'nginx' with pid 8
+2019-02-16 21:44:29,414 INFO spawned: 'uwsgi' with pid 9
+2019-02-16 21:44:30,414 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:44:30,414 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:44:31,616 INFO exited: nginx (exit status 0; expected)
+2019-02-16 21:44:41,260 WARN received SIGTERM indicating exit request
+2019-02-16 21:44:41,261 INFO waiting for uwsgi to die
+2019-02-16 21:44:44,264 INFO waiting for uwsgi to die
+2019-02-16 21:44:47,268 INFO waiting for uwsgi to die
+2019-02-16 21:44:50,272 INFO waiting for uwsgi to die
+2019-02-16 21:44:51,273 WARN killing 'uwsgi' (9) with SIGKILL
+2019-02-16 21:44:51,286 INFO stopped: uwsgi (terminated by SIGKILL)
+2019-02-16 21:46:06,146 CRIT Supervisor running as root (no user in config file)
+2019-02-16 21:46:06,147 INFO supervisord started with pid 1
+2019-02-16 21:46:07,150 INFO spawned: 'nginx' with pid 8
+2019-02-16 21:46:07,154 INFO spawned: 'uwsgi' with pid 9
+2019-02-16 21:46:07,191 INFO exited: nginx (exit status 0; not expected)
+2019-02-16 21:46:08,210 INFO spawned: 'nginx' with pid 29
+2019-02-16 21:46:08,211 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:46:09,222 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:46:10,724 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:46:11,726 INFO spawned: 'nginx' with pid 31
+2019-02-16 21:46:12,738 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:46:14,240 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:46:14,391 INFO spawned: 'nginx' with pid 40
+2019-02-16 21:46:15,406 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:46:16,909 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:46:17,912 INFO spawned: 'nginx' with pid 86
+2019-02-16 21:46:18,949 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:46:20,450 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:46:21,454 INFO spawned: 'nginx' with pid 87
+2019-02-16 21:46:22,488 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:46:23,992 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:46:24,995 INFO spawned: 'nginx' with pid 88
+2019-02-16 21:46:26,032 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:46:27,535 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:46:28,538 INFO spawned: 'nginx' with pid 89
+2019-02-16 21:46:29,577 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:46:31,080 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:46:32,084 INFO spawned: 'nginx' with pid 90
+2019-02-16 21:46:33,096 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:46:34,600 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:46:35,604 INFO spawned: 'nginx' with pid 91
+2019-02-16 21:46:36,617 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:46:38,119 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:46:39,123 INFO spawned: 'nginx' with pid 92
+2019-02-16 21:46:40,159 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:46:41,662 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:46:42,666 INFO spawned: 'nginx' with pid 93
+2019-02-16 21:46:43,702 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:46:45,206 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:46:46,209 INFO spawned: 'nginx' with pid 94
+2019-02-16 21:46:47,226 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:46:48,729 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:46:49,733 INFO spawned: 'nginx' with pid 95
+2019-02-16 21:46:50,771 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:46:52,274 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:46:53,278 INFO spawned: 'nginx' with pid 96
+2019-02-16 21:46:54,314 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:46:55,817 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:46:56,820 INFO spawned: 'nginx' with pid 97
+2019-02-16 21:46:57,847 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:46:59,350 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:47:00,354 INFO spawned: 'nginx' with pid 98
+2019-02-16 21:47:01,368 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:47:02,871 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:47:03,875 INFO spawned: 'nginx' with pid 99
+2019-02-16 21:47:04,889 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:47:06,392 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:47:07,396 INFO spawned: 'nginx' with pid 100
+2019-02-16 21:47:08,411 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:47:09,915 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:47:10,918 INFO spawned: 'nginx' with pid 101
+2019-02-16 21:47:11,933 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:47:13,436 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:47:14,440 INFO spawned: 'nginx' with pid 102
+2019-02-16 21:47:15,455 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:47:16,958 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:47:17,962 INFO spawned: 'nginx' with pid 103
+2019-02-16 21:47:18,978 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:47:20,481 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:47:21,485 INFO spawned: 'nginx' with pid 104
+2019-02-16 21:47:22,500 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:47:24,004 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:47:25,008 INFO spawned: 'nginx' with pid 105
+2019-02-16 21:47:26,020 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:47:27,523 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:47:28,527 INFO spawned: 'nginx' with pid 106
+2019-02-16 21:47:29,543 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:47:31,046 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:47:32,050 INFO spawned: 'nginx' with pid 107
+2019-02-16 21:47:33,065 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:47:34,568 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:47:35,572 INFO spawned: 'nginx' with pid 108
+2019-02-16 21:47:36,587 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:47:38,090 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:47:39,094 INFO spawned: 'nginx' with pid 109
+2019-02-16 21:47:40,128 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:47:41,631 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:47:42,634 INFO spawned: 'nginx' with pid 110
+2019-02-16 21:47:43,671 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:47:45,175 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:47:46,178 INFO spawned: 'nginx' with pid 111
+2019-02-16 21:47:47,216 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:47:48,719 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:47:49,723 INFO spawned: 'nginx' with pid 112
+2019-02-16 21:47:50,737 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:47:52,241 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:47:53,244 INFO spawned: 'nginx' with pid 113
+2019-02-16 21:47:54,259 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:47:55,763 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:47:56,766 INFO spawned: 'nginx' with pid 114
+2019-02-16 21:47:57,781 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:47:59,285 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:48:00,289 INFO spawned: 'nginx' with pid 115
+2019-02-16 21:48:01,326 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:48:02,829 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:48:03,833 INFO spawned: 'nginx' with pid 116
+2019-02-16 21:48:04,863 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:48:06,367 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:48:07,371 INFO spawned: 'nginx' with pid 117
+2019-02-16 21:48:08,387 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:48:09,890 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:48:10,894 INFO spawned: 'nginx' with pid 118
+2019-02-16 21:48:11,931 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:48:13,434 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:48:14,438 INFO spawned: 'nginx' with pid 119
+2019-02-16 21:48:15,453 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:48:16,957 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:48:17,961 INFO spawned: 'nginx' with pid 120
+2019-02-16 21:48:19,000 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:48:20,503 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:48:21,506 INFO spawned: 'nginx' with pid 121
+2019-02-16 21:48:22,520 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:48:24,024 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:48:25,028 INFO spawned: 'nginx' with pid 122
+2019-02-16 21:48:26,067 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:48:27,570 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:48:28,574 INFO spawned: 'nginx' with pid 123
+2019-02-16 21:48:29,608 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:48:31,112 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:48:32,115 INFO spawned: 'nginx' with pid 124
+2019-02-16 21:48:33,129 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:48:34,632 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:48:35,636 INFO spawned: 'nginx' with pid 125
+2019-02-16 21:48:36,671 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:48:38,174 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:48:39,177 INFO spawned: 'nginx' with pid 126
+2019-02-16 21:48:40,212 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:48:41,716 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:48:42,720 INFO spawned: 'nginx' with pid 127
+2019-02-16 21:48:43,755 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:48:44,787 WARN received SIGTERM indicating exit request
+2019-02-16 21:48:44,787 INFO waiting for nginx, uwsgi to die
+2019-02-16 21:48:45,257 INFO exited: nginx (exit status 1; not expected)
+2019-02-16 21:48:45,831 INFO stopped: uwsgi (exit status 0)
+2019-02-16 21:49:59,621 CRIT Supervisor running as root (no user in config file)
+2019-02-16 21:49:59,648 INFO supervisord started with pid 1
+2019-02-16 21:50:00,651 INFO spawned: 'nginx' with pid 8
+2019-02-16 21:50:00,653 INFO spawned: 'uwsgi' with pid 9
+2019-02-16 21:50:01,753 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:50:01,754 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:52:16,160 WARN received SIGTERM indicating exit request
+2019-02-16 21:52:16,160 INFO waiting for nginx, uwsgi to die
+2019-02-16 21:52:17,202 INFO stopped: uwsgi (exit status 0)
+2019-02-16 21:52:17,204 INFO stopped: nginx (exit status 0)
+2019-02-16 21:56:21,396 CRIT Supervisor running as root (no user in config file)
+2019-02-16 21:56:21,437 INFO supervisord started with pid 1
+2019-02-16 21:56:22,440 INFO spawned: 'nginx' with pid 8
+2019-02-16 21:56:22,442 INFO spawned: 'uwsgi' with pid 9
+2019-02-16 21:56:23,518 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:56:23,518 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 21:58:55,707 WARN received SIGTERM indicating exit request
+2019-02-16 21:58:55,708 INFO waiting for nginx, uwsgi to die
+2019-02-16 21:58:56,749 INFO stopped: uwsgi (exit status 0)
+2019-02-16 21:58:56,751 INFO stopped: nginx (exit status 0)
+2019-02-16 22:00:36,004 CRIT Supervisor running as root (no user in config file)
+2019-02-16 22:00:36,086 INFO supervisord started with pid 1
+2019-02-16 22:00:37,089 INFO spawned: 'nginx' with pid 8
+2019-02-16 22:00:37,092 INFO spawned: 'uwsgi' with pid 9
+2019-02-16 22:00:38,505 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 22:00:38,506 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 22:04:56,845 WARN received SIGTERM indicating exit request
+2019-02-16 22:04:56,845 INFO waiting for nginx, uwsgi to die
+2019-02-16 22:04:57,886 INFO stopped: uwsgi (exit status 0)
+2019-02-16 22:04:57,888 INFO stopped: nginx (exit status 0)
+2019-02-16 22:05:05,387 CRIT Supervisor running as root (no user in config file)
+2019-02-16 22:05:05,388 INFO supervisord started with pid 1
+2019-02-16 22:05:06,391 INFO spawned: 'nginx' with pid 8
+2019-02-16 22:05:06,394 INFO spawned: 'uwsgi' with pid 9
+2019-02-16 22:05:07,423 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 22:05:07,423 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 22:05:39,276 WARN received SIGTERM indicating exit request
+2019-02-16 22:05:39,276 INFO waiting for nginx, uwsgi to die
+2019-02-16 22:05:40,318 INFO stopped: uwsgi (exit status 0)
+2019-02-16 22:05:40,320 INFO stopped: nginx (exit status 0)
+2019-02-16 22:05:44,664 CRIT Supervisor running as root (no user in config file)
+2019-02-16 22:05:44,665 INFO supervisord started with pid 1
+2019-02-16 22:05:45,668 INFO spawned: 'nginx' with pid 8
+2019-02-16 22:05:45,670 INFO spawned: 'uwsgi' with pid 9
+2019-02-16 22:05:46,699 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 22:05:46,699 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 22:07:10,674 WARN received SIGTERM indicating exit request
+2019-02-16 22:07:10,675 INFO waiting for nginx, uwsgi to die
+2019-02-16 22:07:11,717 INFO stopped: uwsgi (exit status 0)
+2019-02-16 22:07:11,719 INFO stopped: nginx (exit status 0)
+2019-02-16 22:11:41,452 CRIT Supervisor running as root (no user in config file)
+2019-02-16 22:11:41,453 INFO supervisord started with pid 1
+2019-02-16 22:11:42,456 INFO spawned: 'nginx' with pid 8
+2019-02-16 22:11:42,458 INFO spawned: 'uwsgi' with pid 9
+2019-02-16 22:11:43,485 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 22:11:43,486 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 22:13:27,797 WARN received SIGTERM indicating exit request
+2019-02-16 22:13:27,797 INFO waiting for nginx, uwsgi to die
+2019-02-16 22:13:28,814 INFO stopped: uwsgi (exit status 0)
+2019-02-16 22:13:28,816 INFO stopped: nginx (exit status 0)
+2019-02-16 22:13:39,899 CRIT Supervisor running as root (no user in config file)
+2019-02-16 22:13:39,901 INFO supervisord started with pid 1
+2019-02-16 22:13:40,904 INFO spawned: 'nginx' with pid 8
+2019-02-16 22:13:40,907 INFO spawned: 'uwsgi' with pid 9
+2019-02-16 22:13:41,962 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 22:13:41,962 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 22:18:46,150 WARN received SIGTERM indicating exit request
+2019-02-16 22:18:46,150 INFO waiting for nginx, uwsgi to die
+2019-02-16 22:18:47,168 INFO stopped: uwsgi (exit status 0)
+2019-02-16 22:18:47,170 INFO stopped: nginx (exit status 0)
+2019-02-16 22:18:52,122 CRIT Supervisor running as root (no user in config file)
+2019-02-16 22:18:52,124 INFO supervisord started with pid 1
+2019-02-16 22:18:53,127 INFO spawned: 'nginx' with pid 8
+2019-02-16 22:18:53,131 INFO spawned: 'uwsgi' with pid 9
+2019-02-16 22:18:54,183 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 22:18:54,183 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-16 22:20:57,328 WARN received SIGTERM indicating exit request
+2019-02-16 22:20:57,328 INFO waiting for nginx, uwsgi to die
+2019-02-16 22:20:58,346 INFO stopped: uwsgi (exit status 0)
+2019-02-16 22:20:58,348 INFO stopped: nginx (exit status 0)
+2019-02-17 18:37:31,912 CRIT Supervisor running as root (no user in config file)
+2019-02-17 18:37:31,944 INFO supervisord started with pid 1
+2019-02-17 18:37:32,947 INFO spawned: 'nginx' with pid 8
+2019-02-17 18:37:32,950 INFO spawned: 'uwsgi' with pid 9
+2019-02-17 18:37:34,903 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-17 18:37:34,903 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-17 18:38:38,933 WARN received SIGTERM indicating exit request
+2019-02-17 18:38:38,933 INFO waiting for nginx, uwsgi to die
+2019-02-17 18:38:39,947 INFO stopped: uwsgi (exit status 0)
+2019-02-17 18:38:39,948 INFO stopped: nginx (exit status 0)
+2019-02-17 18:38:44,459 CRIT Supervisor running as root (no user in config file)
+2019-02-17 18:38:44,460 INFO supervisord started with pid 1
+2019-02-17 18:38:45,463 INFO spawned: 'nginx' with pid 9
+2019-02-17 18:38:45,465 INFO spawned: 'uwsgi' with pid 10
+2019-02-17 18:38:46,494 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-17 18:38:46,494 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-17 18:38:55,887 WARN received SIGTERM indicating exit request
+2019-02-17 18:38:55,887 INFO waiting for nginx, uwsgi to die
+2019-02-17 18:38:56,902 INFO stopped: uwsgi (exit status 0)
+2019-02-17 18:38:56,904 INFO stopped: nginx (exit status 0)
+2019-02-17 18:39:00,447 CRIT Supervisor running as root (no user in config file)
+2019-02-17 18:39:00,448 INFO supervisord started with pid 1
+2019-02-17 18:39:01,451 INFO spawned: 'nginx' with pid 8
+2019-02-17 18:39:01,453 INFO spawned: 'uwsgi' with pid 9
+2019-02-17 18:39:02,481 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-17 18:39:02,481 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-02-17 18:48:09,804 WARN received SIGTERM indicating exit request
+2019-02-17 18:48:09,804 INFO waiting for nginx, uwsgi to die
+2019-02-17 18:48:12,808 INFO waiting for nginx, uwsgi to die
+2019-02-17 18:48:15,813 INFO waiting for nginx, uwsgi to die
+2019-02-17 18:48:18,816 INFO waiting for nginx, uwsgi to die
+2019-02-17 18:48:19,818 WARN killing 'uwsgi' (9) with SIGKILL
+2019-02-17 18:48:19,840 INFO stopped: uwsgi (terminated by SIGKILL)
+2019-02-17 18:48:19,848 INFO stopped: nginx (exit status 0)
