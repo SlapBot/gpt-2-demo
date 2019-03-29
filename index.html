@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+      <style>
+      /* Set a background image by replacing the URL below */
+        body {
+          background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          background-size: cover;
+          -o-background-size: cover;
+        }
+      </style>
+  </head>
+  <body class="d-flex flex-column h-100">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light static-top mb-5 shadow">
+      <div class="container">
+        <a class="navbar-brand" href="#">Slapbot</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Demo
+                    <span class="sr-only">(current)</span>
+                  </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+      <div class="card border-0 shadow my-5">
+        <div class="card-body p-5">
+          <h1 class="font-weight-light">Conditional Language Completion</h1>
+            <div class="form-group shadow-textarea">
+              <hr>
+              <h3>About</h3>
+              <p>
+                <a href="https://blog.openai.com/better-language-models/">OpenAI</a>
+                recently released GPT-2 (a successor to <a href="https://blog.openai.com/language-unsupervised/">GPT</a>) model,
+                which was trained simply to predict the next word in 40GB of Internet text. Due to their concerns about malicious applications of the technology,
+                As an experiment in responsible disclosure, they released a much
+                <a href="https://github.com/openai/gpt-2">smaller model</a> for researchers to experiment with,
+                as well as a
+                <a href="https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf">technical paper</a>.</p>
+              <h4><label for="exampleFormControlTextarea6">Sample Text: <small>response might take upto 30 seconds because of no-gpu usage</small></label></h4>
+              <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" placeholder="Write something here..."></textarea>
+              <br>
+              <button type="button" id="submit" class="btn btn-primary">Generate</button>
+              <hr>
+              <div id="generatedResult">...</div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        $("#submit").click(function(){
+            let input_text = $("#exampleFormControlTextarea6").val();
+            $.post("/api/conditional_sample", { input_text: input_text })
+            .done(function( data ) {
+                let json_data = JSON.parse(data);
+                console.log(json_data);
+                let updated_result = input_text + "<hr>" + json_data.result.replace(/(?:\r\n|\r|\n)/g, '<br>');
+              $("#generatedResult").html(updated_result);
+            });
+        });
+    </script>
+  </body>
+</html>
