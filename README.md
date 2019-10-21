@@ -1,6 +1,6 @@
-# gpt-2
+# gpt-2-demo
 
-Live at: http://34.73.95.175/
+Refactored and Abstracted the GPT-2 model code while putting it beside a flask API and dockerized for easy deployment.
 
 Code and samples from the paper ["Language Models are Unsupervised Multitask Learners"](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf).
 
