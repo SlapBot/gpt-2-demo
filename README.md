@@ -10,12 +10,15 @@ See more details in [blog post](https://blog.openai.com/better-language-models/)
 
 Download the model data (needs [gsutil](https://cloud.google.com/storage/docs/gsutil_install)):
 
+- Download the model (Linux): `sh download_model.sh 117M`
+- Download the model (Windows - Bash): `sh download_model_windows.sh 117M`
+
+In case it fails to download the `models/117M/checkpoint` file, just create `checkpoint` file at `models/117M/` 
+and add these lines:
+
 ```
-sh download_model.sh 117M
-(In case it fails to download the models/117M/checkpoint file, just create one and add these lines:
 model_checkpoint_path: "model.ckpt"
 all_model_checkpoint_paths: "model.ckpt"
-)
 ```
 
 Build the docker image:
