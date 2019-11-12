@@ -6,6 +6,8 @@ Code and samples from the paper ["Language Models are Unsupervised Multitask Lea
 
 See more details in [blog post](https://blog.openai.com/better-language-models/).
 
+![](https://github.com/SlapBot/gpt-2-demo/blob/master/screenshots/0.PNG)
+
 ## Installation
 
 Download the model data (needs [gsutil](https://cloud.google.com/storage/docs/gsutil_install)):
